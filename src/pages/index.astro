@@ -30,19 +30,19 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, my name is Ahmad Muhardian"
+					tagline="I am a Software Developer and Content Creator who love to learn new things."
 					align="start"
 				>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
+						<Pill><Icon icon="magic-wand" size="1.33em" /> Designer</Pill>
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Ahmad Muhardian smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
@@ -81,7 +81,7 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Skill Sets</h3>
 					<p>
 						I have been fortunate enough to recieve praise for my work in several publications. Take
 						a look below to learn more.
@@ -91,9 +91,9 @@ const projects = (await getCollection('work'))
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Javascript', 'Expressjs', 'Figma', 'Hugo', 'Web3'].map((skill) => (
 								<li class="mention-card">
-									<p>{brand}</p>
+									<p>{skill}</p>
 								</li>
 							))
 						}
